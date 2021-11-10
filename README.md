@@ -1,4 +1,6 @@
 # till-end-of-Term-4-count-down-
+For semi-pivate use.
+
 TO USE: down load the executable(.exe file extension) file, the py file req python interpreter.
 Made for the schedule of the schedule of BHS, victorian cirruculum schedule.
 
