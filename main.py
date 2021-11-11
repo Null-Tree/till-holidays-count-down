@@ -71,7 +71,7 @@ class Test():
 
         self.button = tk.Button(self.root,
                                 text="Click To Update",
-                                command=self.changeText)
+                                command=self.changeText, bg='gray', fg='white')
         self.button.pack()
         self.label.pack()
         self.root.mainloop()
