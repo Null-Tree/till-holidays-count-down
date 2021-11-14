@@ -40,7 +40,7 @@ def calc():
     elif hour == 11 and minute <= 50:
         session_total += 2
 
-    elif hour < 13:
+    elif 13 > hour > 15:
         session_total += 1
     elif hour == 13 and minute <= 50:
         session_total += 1
