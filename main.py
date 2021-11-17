@@ -3,8 +3,8 @@ import tkinter as tk
 
 
 def calc():
-    term_end = datetime(2021, 12, 17, 15, 30)
-    date_end = datetime(2021, 12, 18)
+    term_end = datetime(2021, 12, 10, 15, 20) #last week was optinal
+    date_end = datetime(2021, 12, 11)
     today = datetime.now()
     str_today = str(today)
     two_today = str_today.split(' ')
@@ -40,7 +40,7 @@ def calc():
     elif hour == 11 and minute <= 50:
         session_total += 2
 
-    elif 13 > hour > 15:
+    elif hour < 13:
         session_total += 1
     elif hour == 13 and minute <= 50:
         session_total += 1
