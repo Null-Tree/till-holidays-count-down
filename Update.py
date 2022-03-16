@@ -67,7 +67,7 @@ def calc():
 
     infotext = f'''
 In total including weekends and holidays, there is:
-{list_diffrence[0]} days, 
+{list_diffrence[0]}, 
 {time_list[0]} hours, 
 {time_list[1]} minutes and 
 {time_list[2]} seconds until we are free
